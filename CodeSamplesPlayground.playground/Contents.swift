@@ -47,3 +47,12 @@ enum LoginProviderAVC {
 let user = LoginUser(email: "foo@bar.com", password: "password")
 let providerAVC = LoginProviderAVC.Email(user)
 
+switch providerAVC {
+case let .Email(user) where user.isValid():
+    // Login logic here for valid user
+    break
+case let .Email(user) where !user.isValid():
+    // Login logic here for invalid user
+    break
+}
+
