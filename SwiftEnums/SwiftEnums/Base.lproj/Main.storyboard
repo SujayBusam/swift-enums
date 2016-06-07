@@ -30,15 +30,25 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yyz-V9-OLs">
                                 <rect key="frame" x="20" y="540" width="335" height="30"/>
                                 <state key="normal" title="Email Login"/>
+                                <connections>
+                                    <action selector="emailLoginTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eym-ze-bJF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dk0-w1-U5v">
                                 <rect key="frame" x="20" y="578" width="335" height="30"/>
                                 <state key="normal" title="Facebook Login"/>
+                                <connections>
+                                    <action selector="facebookLoginTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Tk-MY-WHU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="emailField" destination="D00-73-764" id="GRn-oY-FHH"/>
+                        <outlet property="passwordField" destination="f48-j9-1kU" id="YS6-CE-TUX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

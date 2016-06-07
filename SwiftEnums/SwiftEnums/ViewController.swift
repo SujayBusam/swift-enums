@@ -9,17 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // ============ Text Field Instance Variables ============ //
+    @IBOutlet weak var emailField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+    
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    // ============ Login Button Actions ============ //
+    
+    @IBAction func emailLoginTouched(sender: UIButton) {
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func facebookLoginTouched(sender: UIButton) {
+        
     }
-
+    
 
 }
 
