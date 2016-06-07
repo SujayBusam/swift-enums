@@ -69,3 +69,6 @@ func login() {
         break
     }
 }
+
+let fbProvider = LoginProvider.Facebook
+provider.login()
