@@ -1,3 +1,5 @@
+swift-enums-implementing.pdf is the report.
+
 SwiftEnums is the Xcode project for the simple iOS app mentioned in the report.
 The two main files to look at are LoginProvider.swift and ViewController.swift
 
