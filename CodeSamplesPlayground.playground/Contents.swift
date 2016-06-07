@@ -52,7 +52,9 @@ case let .Email(user) where user.isValid():
     // Login logic here for valid user
     break
 case let .Email(user) where !user.isValid():
-    // Login logic here for invalid user
+    // Error handling here for invalid user
     break
 }
+
+
 
