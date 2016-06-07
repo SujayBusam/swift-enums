@@ -40,7 +40,5 @@ class ViewController: UIViewController, LoginProviderDelegate {
     func loginProvider(loginProvider: LoginProvider, didFail error: String) {
         print(error)
     }
-
-    
 }
 
