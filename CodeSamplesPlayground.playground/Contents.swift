@@ -57,4 +57,15 @@ case let .Email(user) where !user.isValid():
 }
 
 
+// Functions 
 
+func login() {
+    switch self {
+    case let .Email(user) where user.isValid():
+        // Login
+        break
+    case let .Facebook:
+        // Facebook login logic
+        break
+    }
+}
