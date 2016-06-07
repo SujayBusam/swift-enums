@@ -26,7 +26,8 @@ class ViewController: UIViewController, LoginProviderDelegate {
     }
     
     @IBAction func facebookLoginTouched(sender: UIButton) {
-        
+        loginProvider = .Facebook
+        loginProvider.login(self)
     }
     
     
@@ -37,7 +38,7 @@ class ViewController: UIViewController, LoginProviderDelegate {
     }
     
     func loginProvider(loginProvider: LoginProvider, didFail error: String) {
-        
+        print(error)
     }
 
     

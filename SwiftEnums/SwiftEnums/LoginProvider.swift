@@ -36,6 +36,9 @@ enum LoginProvider {
         case let .Email(user) where !user.isValid():
             print("Invalid user")
             break
+        case .Facebook:
+            loginWithFacebook(delegate)
+            break
         default:
             break
         }
@@ -46,6 +49,11 @@ enum LoginProvider {
     private func loginWithEmail(email: String, password: String, delegate: LoginProviderDelegate) {
         // Mock out success
         delegate.loginProvider(self, didSucceed: "Email \(email) login success")
+    }
+    
+    private func loginWithFacebook(delegate: LoginProviderDelegate) {
+        // Mock out success
+        delegate.loginProvider(self, didSucceed: "Facebook login success")
     }
 }
 
