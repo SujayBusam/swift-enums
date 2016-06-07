@@ -13,6 +13,7 @@
 		23B982291D03627200D7E910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23B982281D03627200D7E910 /* Assets.xcassets */; };
 		23B9822C1D03627200D7E910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23B9822A1D03627200D7E910 /* LaunchScreen.storyboard */; };
 		23B982371D03627200D7E910 /* SwiftEnumsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B982361D03627200D7E910 /* SwiftEnumsTests.swift */; };
+		23B982421D067CBE00D7E910 /* LoginProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B982411D067CBE00D7E910 /* LoginProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		23B982321D03627200D7E910 /* SwiftEnumsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftEnumsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23B982361D03627200D7E910 /* SwiftEnumsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftEnumsTests.swift; sourceTree = "<group>"; };
 		23B982381D03627200D7E910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23B982411D067CBE00D7E910 /* LoginProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				23B982281D03627200D7E910 /* Assets.xcassets */,
 				23B9822A1D03627200D7E910 /* LaunchScreen.storyboard */,
 				23B9822D1D03627200D7E910 /* Info.plist */,
+				23B982411D067CBE00D7E910 /* LoginProvider.swift */,
 			);
 			path = SwiftEnums;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23B982241D03627200D7E910 /* ViewController.swift in Sources */,
+				23B982421D067CBE00D7E910 /* LoginProvider.swift in Sources */,
 				23B982221D03627200D7E910 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
